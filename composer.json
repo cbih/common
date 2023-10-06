@@ -1,0 +1,27 @@
+{
+  "name": "cbih/common",
+  "description": "My common library",
+  "type": "library",
+  "keywords": [""],
+  "license": "MIT",
+  "homepage": "https://github.com/cbih/common",
+  "authors": [
+    {
+      "name": "Sidorov Alexey",
+      "email": "cbih315@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.5"
+  },
+  "autoload": {
+    "psr-0": {
+      "cbih\\common": "src"
+    }
+  },
+  "config": {
+    "platform": {
+      "php": "7.5"
+    }
+  }
+}
