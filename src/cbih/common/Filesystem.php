@@ -21,7 +21,7 @@ class Filesystem {
    * @param $result string
    * @return Array
    */
-  function getDirContents($dir, $mask = '', &$result = array()) {
+  public static function getDirContents($dir, $mask = '', &$result = array()) {
     $files = scandir($dir);
     foreach ($files as $value) {
       $path = realpath($dir . DIRECTORY_SEPARATOR . $value);
