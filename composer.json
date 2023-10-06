@@ -2,7 +2,7 @@
   "name": "cbih/common",
   "description": "My common library",
   "type": "library",
-  "keywords": [""],
+  "keywords": ["cbih"],
   "license": "MIT",
   "homepage": "https://github.com/cbih/common",
   "authors": [
